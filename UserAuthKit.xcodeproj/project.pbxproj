@@ -12,6 +12,10 @@
 		EC06C30120AB90B200ABF86B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC06C2FF20AB90B200ABF86B /* Main.storyboard */; };
 		EC06C30320AB90B200ABF86B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC06C30220AB90B200ABF86B /* Assets.xcassets */; };
 		EC06C30620AB90B200ABF86B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC06C30420AB90B200ABF86B /* LaunchScreen.storyboard */; };
+		EC06C30E20AB963500ABF86B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06C30D20AB963500ABF86B /* LoginViewController.swift */; };
+		EC06C31020AB964100ABF86B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06C30F20AB964100ABF86B /* SignUpViewController.swift */; };
+		EC06C31220AB965000ABF86B /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06C31120AB965000ABF86B /* LogoutViewController.swift */; };
+		EC06C31420AB9A6700ABF86B /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06C31320AB9A6700ABF86B /* Keychain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		EC06C30220AB90B200ABF86B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC06C30520AB90B200ABF86B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC06C30720AB90B200ABF86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC06C30D20AB963500ABF86B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EC06C30F20AB964100ABF86B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EC06C31120AB965000ABF86B /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		EC06C31320AB9A6700ABF86B /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				EC06C2FB20AB90B200ABF86B /* AppDelegate.swift */,
 				EC06C2FD20AB90B200ABF86B /* ViewController.swift */,
+				EC06C31320AB9A6700ABF86B /* Keychain.swift */,
+				EC06C30D20AB963500ABF86B /* LoginViewController.swift */,
+				EC06C30F20AB964100ABF86B /* SignUpViewController.swift */,
+				EC06C31120AB965000ABF86B /* LogoutViewController.swift */,
 				EC06C2FF20AB90B200ABF86B /* Main.storyboard */,
 				EC06C30220AB90B200ABF86B /* Assets.xcassets */,
 				EC06C30420AB90B200ABF86B /* LaunchScreen.storyboard */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC06C30E20AB963500ABF86B /* LoginViewController.swift in Sources */,
 				EC06C2FE20AB90B200ABF86B /* ViewController.swift in Sources */,
+				EC06C31020AB964100ABF86B /* SignUpViewController.swift in Sources */,
+				EC06C31220AB965000ABF86B /* LogoutViewController.swift in Sources */,
 				EC06C2FC20AB90B200ABF86B /* AppDelegate.swift in Sources */,
+				EC06C31420AB9A6700ABF86B /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
