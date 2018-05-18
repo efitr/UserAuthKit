@@ -1,8 +1,8 @@
 //
-//  SignUpViewController.swift
+//  RegisterButton.swift
 //  UserAuthKit
 //
-//  Created by Egon Fiedler on 5/15/18.
+//  Created by Egon Fiedler on 5/17/18.
 //  Copyright © 2018 App Solutions. All rights reserved.
 //
 

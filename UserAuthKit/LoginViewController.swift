@@ -12,7 +12,8 @@ import UIKit
 //How does a keychainunwrapper works
 import SwiftKeychainWrapper
 
-class SignInViewController: UIViewController {
+
+class LoginViewController: UIViewController {
     
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var userPasswordTextField: UITextField!
@@ -136,7 +137,7 @@ class SignInViewController: UIViewController {
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Dispose of any resources that can be recreated.registerViewController
     }
     
     func removeActivityIndicator(activityIndicator: UIActivityIndicatorView)
