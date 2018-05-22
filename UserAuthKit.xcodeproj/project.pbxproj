@@ -16,9 +16,8 @@
 		EC06C31020AB964100ABF86B /* RegisterUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06C30F20AB964100ABF86B /* RegisterUserViewController.swift */; };
 		EC06C31220AB965000ABF86B /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06C31120AB965000ABF86B /* LogoutViewController.swift */; };
 		EC06C31420AB9A6700ABF86B /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06C31320AB9A6700ABF86B /* Keychain.swift */; };
-		EC8D420F20AE406100D6AF8C /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D420E20AE406100D6AF8C /* LoginButton.swift */; };
-		EC8D421120AE406D00D6AF8C /* NewAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D421020AE406D00D6AF8C /* NewAccountButton.swift */; };
-		EC8D421320AE40DF00D6AF8C /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D421220AE40DF00D6AF8C /* RegisterButton.swift */; };
+		EC8D421A20AEA6C300D6AF8C /* UICustomizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D421820AEA6C300D6AF8C /* UICustomizableButton.swift */; };
+		EC8D421B20AEA6C300D6AF8C /* UICustomizableButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8D421920AEA6C300D6AF8C /* UICustomizableButton.xib */; };
 		FD6146B13219B9F692F62732 /* Pods_UserAuthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429C3640309ECD712FC75E6F /* Pods_UserAuthKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +36,8 @@
 		EC06C30F20AB964100ABF86B /* RegisterUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewController.swift; sourceTree = "<group>"; };
 		EC06C31120AB965000ABF86B /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		EC06C31320AB9A6700ABF86B /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
-		EC8D420E20AE406100D6AF8C /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
-		EC8D421020AE406D00D6AF8C /* NewAccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountButton.swift; sourceTree = "<group>"; };
-		EC8D421220AE40DF00D6AF8C /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
+		EC8D421820AEA6C300D6AF8C /* UICustomizableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomizableButton.swift; sourceTree = "<group>"; };
+		EC8D421920AEA6C300D6AF8C /* UICustomizableButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UICustomizableButton.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,15 +88,22 @@
 				EC06C30D20AB963500ABF86B /* LoginViewController.swift */,
 				EC06C30F20AB964100ABF86B /* RegisterUserViewController.swift */,
 				EC06C31120AB965000ABF86B /* LogoutViewController.swift */,
-				EC8D420E20AE406100D6AF8C /* LoginButton.swift */,
-				EC8D421020AE406D00D6AF8C /* NewAccountButton.swift */,
-				EC8D421220AE40DF00D6AF8C /* RegisterButton.swift */,
+				EC8D421820AEA6C300D6AF8C /* UICustomizableButton.swift */,
+				EC8D421920AEA6C300D6AF8C /* UICustomizableButton.xib */,
+				EC8D421720AEA64300D6AF8C /* Button */,
 				EC06C2FF20AB90B200ABF86B /* Main.storyboard */,
 				EC06C30220AB90B200ABF86B /* Assets.xcassets */,
 				EC06C30420AB90B200ABF86B /* LaunchScreen.storyboard */,
 				EC06C30720AB90B200ABF86B /* Info.plist */,
 			);
 			path = UserAuthKit;
+			sourceTree = "<group>";
+		};
+		EC8D421720AEA64300D6AF8C /* Button */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 		F67769206E41283578087CD9 /* Frameworks */ = {
@@ -172,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC06C30620AB90B200ABF86B /* LaunchScreen.storyboard in Resources */,
+				EC8D421B20AEA6C300D6AF8C /* UICustomizableButton.xib in Resources */,
 				EC06C30320AB90B200ABF86B /* Assets.xcassets in Resources */,
 				EC06C30120AB90B200ABF86B /* Main.storyboard in Resources */,
 			);
@@ -238,10 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8D420F20AE406100D6AF8C /* LoginButton.swift in Sources */,
 				EC06C30E20AB963500ABF86B /* LoginViewController.swift in Sources */,
-				EC8D421120AE406D00D6AF8C /* NewAccountButton.swift in Sources */,
-				EC8D421320AE40DF00D6AF8C /* RegisterButton.swift in Sources */,
+				EC8D421A20AEA6C300D6AF8C /* UICustomizableButton.swift in Sources */,
 				EC06C2FE20AB90B200ABF86B /* ViewController.swift in Sources */,
 				EC06C31020AB964100ABF86B /* RegisterUserViewController.swift in Sources */,
 				EC06C31220AB965000ABF86B /* LogoutViewController.swift in Sources */,
